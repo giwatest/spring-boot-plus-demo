@@ -1,0 +1,239 @@
+2021-03-11 10:59:56.326  INFO [main] [] i.g.s.SpringBootPlusApplication          55 : Starting SpringBootPlusApplication on liubingnadeMacBook-Pro.local with PID 57668 (/Users/liubingna/nana/java/projects/spring-boot-plus/bootstrap/target/bootstrap-2.0.jar started by liubingna in /Users/liubingna/nana/java/projects/spring-boot-plus)
+2021-03-11 10:59:56.337 DEBUG [main] [] i.g.s.SpringBootPlusApplication          56 : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-03-11 10:59:56.338  INFO [main] [] i.g.s.SpringBootPlusApplication          655 : The following profiles are active: dev
+2021-03-11 10:59:58.495  INFO [main] [] .s.d.r.c.RepositoryConfigurationDelegate 249 : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-11 10:59:58.507  INFO [main] [] .s.d.r.c.RepositoryConfigurationDelegate 127 : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-11 10:59:58.668  INFO [main] [] .s.d.r.c.RepositoryConfigurationDelegate 187 : Finished Spring Data repository scanning in 54ms. Found 0 Redis repository interfaces.
+2021-03-11 10:59:59.367  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'shiroConfig' of type [io.geekidea.springbootplus.config.ShiroConfig$$EnhancerBySpringCGLIB$$5193b1c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 10:59:59.502  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'jwtProperties' of type [io.geekidea.springbootplus.config.properties.JwtProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 10:59:59.507  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'redisTemplateConfig' of type [io.geekidea.springbootplus.config.RedisTemplateConfig$$EnhancerBySpringCGLIB$$72629664] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 10:59:59.531  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 10:59:59.540  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 10:59:59.786  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 10:59:59.962  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.095  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.096  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'loginRedisServiceImpl' of type [io.geekidea.springbootplus.framework.shiro.cache.impl.LoginRedisServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.389  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'credentialsMatcher' of type [io.geekidea.springbootplus.framework.shiro.jwt.JwtCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.393  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'jwtRealm' of type [io.geekidea.springbootplus.framework.shiro.jwt.JwtRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.399  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'sessionStorageEvaluator' of type [org.apache.shiro.web.mgt.DefaultWebSessionStorageEvaluator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.400  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'subjectDAO' of type [org.apache.shiro.mgt.DefaultSubjectDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.404  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.501  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'shiroLoginServiceImpl' of type [io.geekidea.springbootplus.framework.shiro.service.impl.ShiroLoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.523  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'spring-boot-plus.shiro-io.geekidea.springbootplus.config.properties.ShiroProperties' of type [io.geekidea.springbootplus.config.properties.ShiroProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:00.674 DEBUG [main] [] i.g.springbootplus.config.ShiroConfig    186 : anonList:[["/login","/logout"],["/static/**","/templates/**"],["/swagger-ui.html","/docs","/doc.html","/swagger-resources/**","/webjars/**","/v2/api-docs","/csrf","/v2/api-docs-ext","/null/swagger-resources/**"],["/actuator/**"],[],["/","/index.html"],["/hello/world","/fooBar/**","/exampleOrder/**"]]
+2021-03-11 11:00:00.745 DEBUG [main] [] i.g.springbootplus.config.ShiroConfig    201 : definitions:{"/verificationCode/**":"anon","/upload/**":"anon","/enum":"anon","/getSysUserInfo":"anon","/resource/**":"anon"}
+2021-03-11 11:00:00.746 DEBUG [main] [] i.g.springbootplus.config.ShiroConfig    209 : permissionConfigs:null
+2021-03-11 11:00:00.747 DEBUG [main] [] i.g.springbootplus.config.ShiroConfig    240 : filterChainMap:{"/login":"anon","/logout":"anon","/static/**":"anon","/templates/**":"anon","/swagger-ui.html":"anon","/docs":"anon","/doc.html":"anon","/swagger-resources/**":"anon","/webjars/**":"anon","/v2/api-docs":"anon","/csrf":"anon","/v2/api-docs-ext":"anon","/null/swagger-resources/**":"anon","/actuator/**":"anon","/":"anon","/index.html":"anon","/hello/world":"anon","/fooBar/**":"anon","/exampleOrder/**":"anon","/verificationCode/**":"anon","/getSysUserInfo":"anon","/upload/**":"anon","/enum":"anon","/resource/**":"anon","/**":"jwtFilter"}
+2021-03-11 11:00:00.842  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:01.277  INFO [main] [] trationDelegate$BeanPostProcessorChecker 330 : Bean 'redisCacheConfig' of type [io.geekidea.springbootplus.config.RedisCacheConfig$$EnhancerBySpringCGLIB$$164d159a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-11 11:00:01.930  INFO [main] [] o.s.b.w.embedded.tomcat.TomcatWebServer  92 : Tomcat initialized with port(s): 8899 (http)
+2021-03-11 11:00:01.957  INFO [main] [] o.a.coyote.http11.Http11NioProtocol      173 : Initializing ProtocolHandler ["http-nio-8899"]
+2021-03-11 11:00:01.960  INFO [main] [] o.apache.catalina.core.StandardService   173 : Starting service [Tomcat]
+2021-03-11 11:00:01.962  INFO [main] [] org.apache.catalina.core.StandardEngine  173 : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-03-11 11:00:02.091  INFO [main] [] o.a.c.c.C.[Tomcat].[localhost].[/api]    173 : Initializing Spring embedded WebApplicationContext
+2021-03-11 11:00:02.092  INFO [main] [] o.s.web.context.ContextLoader            284 : Root WebApplicationContext: initialization completed in 5623 ms
+2021-03-11 11:00:02.262 DEBUG [main] [] i.g.s.config.SpringBootPlusWebMvcConfig  150 : SpringBootPlusProperties：{"allowDownloadFileExtensions":["jpg","png","docx","xlsx","pptx","pdf"],"allowUploadFileExtensions":["jpg","png","docx","xlsx","pptx","pdf"],"cors":{"allowCredentials":true,"allowedHeaders":["*"],"allowedMethods":["OPTION","GET","POST"],"allowedOrigins":["*"],"enable":true,"exposedHeaders":["token"],"maxAge":1800,"path":"/**"},"enableAnsi":true,"enableVerifyCode":false,"enumPackages":["com.example.foorbar.enums"],"filter":{"request":{"async":true,"enable":true,"order":1,"urlPatterns":["/*"]},"xss":{"async":true,"enable":true,"order":2,"urlPatterns":["/*"]}},"interceptor":{"download":{"enable":false,"excludePaths":[],"includePaths":["/download/**"]},"permission":{"enable":false,"excludePaths":[],"includePaths":["/**"]},"resource":{"enable":false,"excludePaths":[],"includePaths":["/resource/**"]},"springbootadmin":{"enable":false,"excludePaths":[],"includePaths":[]},"upload":{"enable":false,"excludePaths":[],"includePaths":["/upload/**"]}},"jwt":{"audience":"web","expireSecond":36000,"issuer":"spring-boot-plus","redisCheck":true,"refreshToken":true,"refreshTokenCountdown":600,"saltCheck":true,"secret":"666666","singleLogin":false,"tokenName":"token"},"loginInitHead":"http://127.0.0.1:8899/api/resource/logo.png","loginInitPassword":"admin","loginInitSalt":"666666","resourceAccessPath":"/resource/","resourceAccessPatterns":"/resource/**","resourceAccessUrl":"http://127.0.0.1:8899/api/resource/","resourceHandlers":"/static/**=classpath:/static/\nswagger-ui.html=classpath:/META-INF/resources/\n/webjars/**=classpath:/META-INF/resources/webjars/\ndoc.html=classpath:/META-INF/resources/\n","serverIp":"127.0.0.1","shiro":{"anon":[["/login","/logout"],["/static/**","/templates/**"],["/swagger-ui.html","/docs","/doc.html","/swagger-resources/**","/webjars/**","/v2/api-docs","/csrf","/v2/api-docs-ext","/null/swagger-resources/**"],["/actuator/**"],[],["/","/index.html"],["/hello/world","/fooBar/**","/exampleOrder/**"]],"enable":true,"filterChainDefinitions":"/resource/**=anon\n/upload/**=anon\n/verificationCode/**=anon\n/enum=anon\n/getSysUserInfo=anon\n"},"swaggerPaths":["/swagger-ui.html","/docs","/doc.html","/swagger-resources/**","/webjars/**","/v2/api-docs","/csrf","/v2/api-docs-ext","/null/swagger-resources/**"],"uploadPath":"/opt/upload/"}
+2021-03-11 11:00:02.335 DEBUG [main] [] i.g.s.config.SpringBootPlusCorsConfig    49 : corsProperties:SpringBootPlusCorsProperties(enable=true, path=/**, allowedOrigins=[*], allowedHeaders=[*], allowCredentials=true, allowedMethods=[OPTION, GET, POST], exposedHeaders=[token], maxAge=1800)
+2021-03-11 11:00:03.151  INFO [main] [] o.s.b.a.e.web.ServletEndpointRegistrar   75 : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2021-03-11 11:00:03.205  INFO [main] [] i.g.s.framework.core.xss.XssFilter       36 : XssFilter init
+2021-03-11 11:00:03.206  INFO [main] [] i.g.s.f.core.filter.RequestDetailFilter  39 : RequestDetailFilter init
+2021-03-11 11:00:04.729 DEBUG [main] [] i.g.s.framework.log.aop.BaseLogAop       171 : logAopConfig = SpringBootPlusAopProperties.LogAopConfig(enableRequestId=true, logPrintType=ORDER, requestIdType=IDWORK, requestLogFormat=true, responseLogFormat=true, excludePaths=[/, /csrf])
+2021-03-11 11:00:04.730 DEBUG [main] [] i.g.s.framework.log.aop.BaseLogAop       172 : logPrintType = ORDER
+2021-03-11 11:00:04.731 DEBUG [main] [] i.g.s.framework.log.aop.BaseLogAop       173 : enableRequestId = true
+2021-03-11 11:00:04.732 DEBUG [main] [] i.g.s.framework.log.aop.BaseLogAop       174 : requestIdType = IDWORK
+2021-03-11 11:00:04.733 DEBUG [main] [] i.g.s.framework.log.aop.BaseLogAop       175 : operationLogConfig = SpringBootPlusAopProperties.OperationLogConfig(enable=true, excludePaths=[])
+2021-03-11 11:00:04.735 DEBUG [main] [] i.g.s.framework.log.aop.BaseLogAop       176 : loginLogConfig = SpringBootPlusAopProperties.LoginLogConfig(enable=true, loginPath=/login, logoutPath=/logout)
+2021-03-11 11:00:04.736 DEBUG [main] [] i.g.s.framework.log.aop.BaseLogAop       177 : contextPath = /api
+2021-03-11 11:00:04.790 DEBUG [main] [] i.g.s.f.c.controller.EnumController      75 : enumPackages:[com.example.foorbar.enums, io.geekidea.springbootplus.framework.common.enums, io.geekidea.springbootplus.system.enums]
+2021-03-11 11:00:04.970  INFO [main] [] org.reflections.Reflections              228 : Reflections took 80 ms to scan 2 urls, producing 2 keys and 4 values 
+2021-03-11 11:00:05.024 DEBUG [main] [] i.g.s.f.c.controller.EnumController      97 : enumMap:{io.geekidea.springbootplus.system.enums.MenuLevelEnum={1=EnumVo(code=1, desc=一级菜单, baseEnum=ONE), 2=EnumVo(code=2, desc=二级菜单, baseEnum=TWO), 3=EnumVo(code=3, desc=功能菜单, baseEnum=THREE)}, io.geekidea.springbootplus.system.enums.StateEnum={0=EnumVo(code=0, desc=禁用, baseEnum=DISABLE), 1=EnumVo(code=1, desc=启用, baseEnum=ENABLE)}}
+2021-03-11 11:00:05.061  INFO [main] [] i.g.s.framework.shiro.util.JwtUtil       51 : {"audience":"web","expireSecond":36000,"issuer":"spring-boot-plus","redisCheck":true,"refreshToken":true,"refreshTokenCountdown":600,"saltCheck":true,"secret":"666666","singleLogin":false,"tokenName":"token"}
+2021-03-11 11:00:05.066 DEBUG [main] [] i.g.s.framework.shiro.util.JwtTokenUtil  42 : tokenName:token
+2021-03-11 11:00:05.094 DEBUG [main] [] i.g.s.c.p.SpringBootPlusStaticProperties 45 : INFO_PROJECT_VERSION:2.0
+2021-03-11 11:00:06.389  INFO [main] [] o.s.b.a.e.web.EndpointLinksResolver      58 : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-03-11 11:00:06.632  INFO [main] [] pertySourcedRequestMappingHandlerMapping 69 : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-11 11:00:06.688 DEBUG [main] [] i.g.s.config.Swagger2Config              155 : swaggerProperties = SwaggerProperties(enable=true, basePackage=io.geekidea.springbootplus,com.example, contactEmail=geekidea@qq.com, contactName=springboot.plus, contactUrl=https://springboot.plus, description=, title=spring-boot-plus API Documents, url=https://springboot.plus, version=2.0, parameterConfig=[SwaggerProperties.ParameterConfig(name=token, description=Token Request Header, type=header, dataType=String, required=false, defaultValue=)])
+2021-03-11 11:00:06.689  INFO [main] [] i.g.s.config.Swagger2Config              166 : swagger scan basePackages:[io.geekidea.springbootplus, com.example]
+2021-03-11 11:00:06.972  INFO [main] [] o.s.s.concurrent.ThreadPoolTaskExecutor  181 : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-11 11:00:07.120  INFO [main] [] o.s.b.a.w.s.WelcomePageHandlerMapping    54 : Adding welcome page: class path resource [static/index.html]
+2021-03-11 11:00:07.335  INFO [main] [] o.s.s.c.ThreadPoolTaskScheduler          181 : Initializing ExecutorService
+2021-03-11 11:00:07.742  INFO [main] [] o.s.s.c.ThreadPoolTaskScheduler          181 : Initializing ExecutorService 'taskScheduler'
+2021-03-11 11:00:07.837  INFO [main] [] d.s.w.p.DocumentationPluginsBootstrapper 160 : Context refreshed
+2021-03-11 11:00:07.872  INFO [main] [] d.s.w.p.DocumentationPluginsBootstrapper 163 : Found 1 custom documentation plugin(s)
+2021-03-11 11:00:07.961  INFO [main] [] s.d.s.w.s.ApiListingReferenceScanner     41 : Scanning for api listing references
+2021-03-11 11:00:08.704  INFO [main] [] .d.s.w.r.o.CachingOperationNameGenerator 40 : Generating unique operation named: getSysUserUsingGET_1
+2021-03-11 11:00:08.807  INFO [main] [] o.a.coyote.http11.Http11NioProtocol      173 : Starting ProtocolHandler ["http-nio-8899"]
+2021-03-11 11:00:08.866  INFO [main] [] o.s.b.w.embedded.tomcat.TomcatWebServer  204 : Tomcat started on port(s): 8899 (http) with context path '/api'
+2021-03-11 11:00:08.871  INFO [main] [] i.g.s.SpringBootPlusApplication          61 : Started SpringBootPlusApplication in 14.094 seconds (JVM running for 15.009)
+2021-03-11 11:00:08.941  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        90 : projectFinalName : bootstrap-2.0
+2021-03-11 11:00:08.942  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        91 : projectVersion : 2.0
+2021-03-11 11:00:08.943  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        92 : profileActive : dev
+2021-03-11 11:00:08.943  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        93 : contextPath : /api
+2021-03-11 11:00:08.944  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        94 : serverIp : 127.0.0.1
+2021-03-11 11:00:08.945  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        95 : port : 8899
+2021-03-11 11:00:08.945  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        110 : Admin:   http://127.0.0.1:8000
+2021-03-11 11:00:08.946  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        111 : Home:    http://127.0.0.1:8899/api
+2021-03-11 11:00:08.947  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        112 : Knife4j: http://127.0.0.1:8899/api/doc.html
+2021-03-11 11:00:08.947  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        113 : Swagger: http://127.0.0.1:8899/api/swagger-ui.html
+2021-03-11 11:00:08.948  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        114 : spring-boot-plus project start success...........
+2021-03-11 11:00:08.961  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        116 : 
+[2J[34m ____    __                    __        ____                                                   
+/\  _`\ /\ \__                /\ \__    /\  _`\                                                 
+\ \,\L\_\ \ ,_\    __     _ __\ \ ,_\   \ \,\L\_\  __  __    ___    ___     __    ____    ____  
+ \/_\__ \\ \ \/  /'__`\  /\`'__\ \ \/    \/_\__ \ /\ \/\ \  /'___\ /'___\ /'__`\ /',__\  /',__\ 
+   /\ \L\ \ \ \_/\ \L\.\_\ \ \/ \ \ \_     /\ \L\ \ \ \_\ \/\ \__//\ \__//\  __//\__, `\/\__, `\
+   \ `\____\ \__\ \__/.\_\\ \_\  \ \__\    \ `\____\ \____/\ \____\ \____\ \____\/\____/\/\____/
+    \/_____/\/__/\/__/\/_/ \/_/   \/__/     \/_____/\/___/  \/____/\/____/\/____/\/___/  \/___/ 
+                                                                                                
+                                                                                                [m
+2021-03-11 11:00:08.962  INFO [main] [] i.g.s.f.util.PrintApplicationInfo        66 : 
+[2J[33m===========================================================================================
+                                                                                  
+                               !!!准备工作!!!                                      
+ 1.导入SQL初始化脚本：docs/db，根据不同数据库导入对应SQL脚本并修改链接等信息配置
+ 2.启动Redis服务，必要条件
+ 3.启动SpringBootAdmin Server，可选操作，admin模块中，启动SpringBootPlusAdminApplication
+ 4.根据项目需要，修改项目配置，请先查看官网配置文档：https://springboot.plus/config/
+ 5.项目模块说明：
+    admin：       SpringBootAdmin Server启动模块
+    bootstrap：   项目启动模块
+    config：      项目配置模块
+    distribution：项目打包模块，打包时，请先选中Maven Profiles中的release和对应环境
+    example：     业务自定义模块，自己的业务代码可在example下进行，也可以再创建模块
+    framework：   项目核心框架模块
+    generator：   代码生成模块，启动类：SpringBootPlusGenerator，请根据实际情况进行配置
+    scheduled：   任务调度模块
+    system：      系统管理模块
+ 6.FAQ：https://springboot.plus/faq
+ 7.如开发中遇到bug及问题，欢迎提交ISSUES：https://github.com/geekidea/spring-boot-plus/issues
+ 8.QQ：625301326，进群答案：springboot.plus
+                                                                                  
+===========================================================================================
+[m
+2021-03-11 11:00:09.289  INFO [registrationTask1] [] d.c.b.a.c.r.ApplicationRegistrator       84 : Application registered itself as 6b4a038cd80f
+2021-03-11 11:00:09.327  INFO [http-nio-8899-exec-2] [] o.a.c.c.C.[Tomcat].[localhost].[/api]    173 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-11 11:00:09.327  INFO [http-nio-8899-exec-2] [] o.s.web.servlet.DispatcherServlet        525 : Initializing Servlet 'dispatcherServlet'
+2021-03-11 11:00:09.360  INFO [http-nio-8899-exec-2] [] o.s.web.servlet.DispatcherServlet        547 : Completed initialization in 33 ms
+2021-03-11 11:00:09.512  INFO [http-nio-8899-exec-1] [] com.zaxxer.hikari.HikariDataSource       110 : HikariPool-1 - Starting...
+2021-03-11 11:00:09.928  INFO [http-nio-8899-exec-1] [] com.zaxxer.hikari.HikariDataSource       123 : HikariPool-1 - Start completed.
+2021-03-11 11:00:10.215  INFO [boundedElastic-1] [] io.lettuce.core.EpollProvider            68 : Starting without optional epoll library
+2021-03-11 11:00:10.218  INFO [boundedElastic-1] [] io.lettuce.core.KqueueProvider           70 : Starting without optional kqueue library
+2021-03-11 11:01:04.926  INFO [http-nio-8899-exec-2] [] o.a.c.c.C.[Tomcat].[localhost].[/api]    173 : jolokia-actuator-endpoint: No access restrictor found, access to any MBean is allowed
+2021-03-11 11:01:55.236  INFO [http-nio-8899-exec-18] [1369846015364440066] i.g.s.framework.log.aop.BaseLogAop       565 : [2J[32mrequestInfo:
+{
+  "path" : "/api/fooBar/add",
+  "ip" : "172.16.63.228",
+  "requestMethod" : "POST",
+  "contentType" : "application/json",
+  "requestBody" : true,
+  "param" : {
+    "id" : 0,
+    "name" : "ab",
+    "foo" : "",
+    "bar" : "1",
+    "remark" : "",
+    "state" : 0,
+    "version" : 0
+  },
+  "time" : "2021-03-11 11:01:55",
+  "token" : ""
+}[m
+2021-03-11 11:01:55.560  INFO [http-nio-8899-exec-18] [1369846015364440066] i.g.s.framework.log.aop.BaseLogAop       602 : [2J[34mresponseResult:
+{
+  "code" : 200,
+  "success" : true,
+  "message" : "操作成功",
+  "data" : null,
+  "time" : "2021-03-11 11:01:55"
+}[m
+2021-03-11 11:03:15.350  INFO [http-nio-8899-exec-27] [1369846351365939201] i.g.s.framework.log.aop.BaseLogAop       565 : [2J[32mrequestInfo:
+{
+  "path" : "/api/exampleOrder/add",
+  "ip" : "172.16.63.228",
+  "requestMethod" : "POST",
+  "contentType" : "application/json",
+  "requestBody" : true,
+  "param" : {
+    "id" : 0,
+    "name" : "11",
+    "orderNo" : "1",
+    "remark" : "",
+    "state" : 0,
+    "version" : 0
+  },
+  "time" : "2021-03-11 11:03:15",
+  "token" : ""
+}[m
+2021-03-11 11:03:15.672  INFO [http-nio-8899-exec-27] [1369846351365939201] i.g.s.framework.log.aop.BaseLogAop       602 : [2J[34mresponseResult:
+{
+  "code" : 200,
+  "success" : true,
+  "message" : "操作成功",
+  "data" : null,
+  "time" : "2021-03-11 11:03:15"
+}[m
+2021-03-11 11:03:32.825  INFO [http-nio-8899-exec-30] [1369846424707538945] i.g.s.framework.log.aop.BaseLogAop       565 : [2J[32mrequestInfo:
+{
+  "path" : "/api/exampleOrder/info/4",
+  "ip" : "172.16.63.228",
+  "requestMethod" : "GET",
+  "requestBody" : false,
+  "time" : "2021-03-11 11:03:32",
+  "token" : ""
+}[m
+2021-03-11 11:03:32.859  INFO [http-nio-8899-exec-30] [1369846424707538945] i.g.s.framework.log.aop.BaseLogAop       602 : [2J[34mresponseResult:
+{
+  "code" : 200,
+  "success" : true,
+  "message" : "操作成功",
+  "data" : {
+    "id" : 4,
+    "name" : "11",
+    "orderNo" : "1",
+    "remark" : "",
+    "state" : 0,
+    "version" : 0,
+    "createTime" : 1615402995000,
+    "updateTime" : null
+  },
+  "time" : "2021-03-11 11:03:32"
+}[m
+2021-03-11 11:03:43.800  INFO [http-nio-8899-exec-3] [1369846470731636738] i.g.s.framework.log.aop.BaseLogAop       565 : [2J[32mrequestInfo:
+{
+  "path" : "/api/exampleOrder/update",
+  "ip" : "172.16.63.228",
+  "requestMethod" : "POST",
+  "contentType" : "application/json",
+  "requestBody" : true,
+  "param" : {
+    "id" : 4,
+    "name" : "qq",
+    "orderNo" : "",
+    "remark" : "",
+    "state" : 0,
+    "version" : 0
+  },
+  "time" : "2021-03-11 11:03:43",
+  "token" : ""
+}[m
+2021-03-11 11:03:43.878  INFO [http-nio-8899-exec-3] [1369846470731636738] i.g.s.framework.log.aop.BaseLogAop       602 : [2J[34mresponseResult:
+{
+  "code" : 200,
+  "success" : true,
+  "message" : "操作成功",
+  "data" : null,
+  "time" : "2021-03-11 11:03:43"
+}[m
+2021-03-11 12:14:18.745  WARN [HikariPool-1 housekeeper] [] com.zaxxer.hikari.pool.HikariPool        779 : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m38s308ms).
+2021-03-11 12:49:46.911  WARN [HikariPool-1 housekeeper] [] com.zaxxer.hikari.pool.HikariPool        779 : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m58s111ms).
+2021-03-11 12:50:36.423 DEBUG [scheduling-1] [] i.g.s.scheduled.HelloScheduled           36 : HelloScheduled...
+2021-03-11 13:29:42.031  WARN [HikariPool-1 housekeeper] [] com.zaxxer.hikari.pool.HikariPool        779 : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=37m55s96ms).
+2021-03-11 13:32:40.959  WARN [HikariPool-1 housekeeper] [] com.zaxxer.hikari.pool.HikariPool        779 : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m28s916ms).
+2021-03-11 13:39:24.015 DEBUG [scheduling-1] [] i.g.s.scheduled.HelloScheduled           36 : HelloScheduled...
+2021-03-11 14:00:00.008 DEBUG [scheduling-1] [] i.g.s.scheduled.HelloScheduled           36 : HelloScheduled...
+2021-03-11 15:00:00.026 DEBUG [scheduling-1] [] i.g.s.scheduled.HelloScheduled           36 : HelloScheduled...
+2021-03-11 15:21:24.556  WARN [HikariPool-1 housekeeper] [] com.zaxxer.hikari.pool.HikariPool        779 : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m33s492ms).
+2021-03-11 16:02:12.995 DEBUG [scheduling-1] [] i.g.s.scheduled.HelloScheduled           36 : HelloScheduled...
+2021-03-11 17:00:00.025 DEBUG [scheduling-1] [] i.g.s.scheduled.HelloScheduled           36 : HelloScheduled...
+2021-03-11 18:00:00.020 DEBUG [scheduling-1] [] i.g.s.scheduled.HelloScheduled           36 : HelloScheduled...
+2021-03-11 19:00:00.025 DEBUG [scheduling-1] [] i.g.s.scheduled.HelloScheduled           36 : HelloScheduled...
